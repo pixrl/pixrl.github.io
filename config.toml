@@ -1,0 +1,54 @@
+baseURL = 'https://pixrl.github.io'
+languageCode = 'en-us'
+theme = "hugo-coder"
+title = 'pixrl'
+
+defaultcontentlanguage = "en"
+
+paginate = 20
+
+pygmentsstyle = "bw"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+[params]
+  author = "pixrl"
+  info = "System administrator and DevOps"
+  description = "pixrl personal website"
+  keywords = "devops,about,developer,personal"
+  avatarurl = "images/heyiya.png"
+
+  favicon_32 = "/img/favicon-32x32.png"
+  favicon_16 = "/img/favicon-16x16.png"
+
+  since = 2022
+
+  enableTwemoji = true
+
+  colorScheme = "dark"
+  hidecolorschemetoggle = false
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Social links
+[[params.social]]
+  name = "Github"
+  icon = "fa fa-github fa-2x"
+  weight = 1
+  url = "https://github.com/pixrl/"
+
+[[params.social]]
+  name = "Email"
+  icon = "fa fa-envelope fa-2x"
+  weight = 1
+  url = "mailto:blackpixel@protonmail.com"
+
+# Menu links
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
